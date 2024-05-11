@@ -34,14 +34,14 @@ const Main = () => {
     />
             </h2>
             <div className='flex justify-around pt-6 max-w-[200px] mx-auto'>
-                <MdOutlineEmail />
-                <SiCalendly />
-                <FaLinkedinIn />
-                <IoLogoGithub />
-                <FaMedium />
-                <FaSquareXTwitter />
+                <MdOutlineEmail className='cursor-pointer' size={20}/>
+                <SiCalendly className='cursor-pointer' size={20}/>
+                <FaLinkedinIn className='cursor-pointer' size={20}/>
+                <IoLogoGithub className='cursor-pointer' size={20}/>
+                <FaMedium className='cursor-pointer' size={20}/>
+                <FaSquareXTwitter className='cursor-pointer' size={20}/>
             </div>
-        </div>
+            </div>
         </div>
     </div>
   )
