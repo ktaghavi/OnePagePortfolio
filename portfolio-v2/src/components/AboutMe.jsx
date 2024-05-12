@@ -24,28 +24,28 @@ const AboutMe = () => {
         <p className="text-gray-600 text-lg my-4">
           {/* I enjoy building applications that solve real-world problems and exploring new technologies. My experience as a chef in the hospitality industry has taught me valuable leadership skills and how to effectively communicate with team members. I also enjoy nature, spending time with family, and music. You can reach me via email, connect with me on LinkedIn, view my GitHub page, and checkout my resume using the links below. */}
         </p>
-          <div className='flex justify-around pt-6 max-w-[200px] mx-auto'>
+          <div className='flex justify-center pt-6 max-w-[200px] mx-auto gap-14'>
             <a href="mailto:taghavi.kamyar@live.com" target="_blank" rel="noopener noreferrer">
-                <MdOutlineEmail className='cursor-pointer' size={20}/>
+                <MdOutlineEmail className='cursor-pointer hover:scale-110 ease-in duration-150' size={35}/>
             </a>
             <a href="https://calendly.com/kamyart" target="_blank" rel="noopener noreferrer">
-                <SiCalendly className='cursor-pointer' size={20}/>
+                <SiCalendly className='cursor-pointer hover:scale-110 ease-in duration-150' size={35}/>
             </a>
             <a href="www.linkedin.com/in/kamyar-taghavi" target="_blank" rel="noopener noreferrer">
-                <FaLinkedinIn className='cursor-pointer' size={20}/>
+                <FaLinkedinIn className='cursor-pointer hover:scale-110 ease-in duration-150' size={35}/>
             </a>
             <a href="https://github.com/ktaghavi" target="_blank" rel="noopener noreferrer">
-                <IoLogoGithub className='cursor-pointer' size={20}/>
+                <IoLogoGithub className='cursor-pointer hover:scale-110 ease-in duration-150' size={35}/>
             </a>
             <a href="https://medium.com/@kaspr.kt" target="_blank" rel="noopener noreferrer">
-                <FaMedium className='cursor-pointer' size={20}/>
+                <FaMedium className='cursor-pointer hover:scale-110 ease-in duration-150' size={35}/>
             </a>
             <a href="https://twitter.com/Crypt0Kam" target="_blank" rel="noopener noreferrer">
-                <FaSquareXTwitter className='cursor-pointer' size={20}/>
+                <FaSquareXTwitter className='cursor-pointer hover:scale-110 ease-in duration-150' size={35}/>
             </a>
             </div>
         <div className="mt-8">
-          <a href={Resume} target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition duration-300">
+          <a href={Resume} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
             View Resume/CV
           </a>
         </div>

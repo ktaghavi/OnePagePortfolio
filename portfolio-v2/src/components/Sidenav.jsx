@@ -74,7 +74,7 @@ const Sidenav = () => {
                         <IoSchoolOutline size={20}/>
                     </a>
                     <a href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <AiOutlineHome size={20}/>
+                        <BsSend size={20}/>
                     </a>
                 </div>
             </div>
