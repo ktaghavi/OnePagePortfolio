@@ -14,21 +14,21 @@ const skills = [
   {
     category: "Languages",
     items: [
-      { name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript", logo: JS_logo },
-      { name: "Python", url: "https://docs.python.org/3//", logo: Python_logo },
-      { name: "HTML", url: "https://developer.mozilla.org/en-US/docs/Web/HTML", logo: HTML_logo },
-      { name: "CSS", url: "https://developer.mozilla.org/en-US/docs/Web/CSS", logo: CSS_logo },
-      { name: "SQL", url: "https://developer.mozilla.org/en-US/docs/Glossary/SQL", logo: SQL_logo }
+        { name: "Python", url: "https://docs.python.org/3//", logo: Python_logo },
+        { name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript", logo: JS_logo },
+        { name: "HTML", url: "https://developer.mozilla.org/en-US/docs/Web/HTML", logo: HTML_logo },
+        { name: "CSS", url: "https://developer.mozilla.org/en-US/docs/Web/CSS", logo: CSS_logo },
+        { name: "SQL", url: "https://developer.mozilla.org/en-US/docs/Glossary/SQL", logo: SQL_logo }
     ],
   },
   {
     category: "Frameworks & Tools",
     items: [
-      { name: "React", url: "https://react.dev/", logo: React_logo },
-      { name: "Flask", url: "https://flask.palletsprojects.com/en/3.0.x/", logo: Flask_logo },
-      { name: "TailwindCSS", url: "https://tailwindcss.com/", logo: Tailwind_logo },
-      { name: "Figma", url: "https://www.figma.com/", logo: Figma_logo },
-      { name: "VSCode", url: "https://code.visualstudio.com/", logo: VSC_logo }
+        { name: "React", url: "https://react.dev/", logo: React_logo },
+        { name: "Flask", url: "https://flask.palletsprojects.com/en/3.0.x/", logo: Flask_logo },
+        { name: "TailwindCSS", url: "https://tailwindcss.com/", logo: Tailwind_logo },
+        { name: "Figma", url: "https://www.figma.com/", logo: Figma_logo },
+        { name: "VSCode", url: "https://code.visualstudio.com/", logo: VSC_logo }
     ],
   }
 ];

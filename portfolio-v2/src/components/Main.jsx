@@ -20,6 +20,8 @@ const Main = () => {
         'Outdoor Adventurer 🏕️',
         1500,
         'Avid Traveler ✈️',
+        1500,
+        'Lifelong Learner 📚',
         1500
       ]}
       wrapper='div'

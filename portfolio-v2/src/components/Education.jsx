@@ -10,7 +10,7 @@ const Education = () => {
         <img
           src={FlatironCert}
           alt="Flatiron Certificate"
-          className="w-auto h-72 object-cover rounded-lg shadow-lg hover:scale-110 ease-in duration-200"
+          className="w-auto h-102 object-cover rounded-lg shadow-lg hover:scale-110 ease-in duration-200"
         />
         <p className="text-center text-gray-700 mt-4">
           Certificate of Completion <br /> 
@@ -21,7 +21,7 @@ const Education = () => {
         <img
           src={ManagementDegree}
           alt="Management Certificate"
-          className="w-auto h-72 object-cover rounded-lg shadow-lg hover:scale-110 ease-in duration-200"
+          className="w-auto h-102 object-cover rounded-lg shadow-lg hover:scale-110 ease-in duration-200"
         />
         <p className="text-center text-gray-700 mt-4">
           Bachelor of Science in Management <br /> 

@@ -18,11 +18,9 @@ const AboutMe = () => {
           className="w-64 h-64 rounded-full mx-auto mb-4 hover:scale-110 ease-in duration-200"
         />
         <p className="text-gray-700 text-xl my-4 py-4">
-          Hello, I'm Kamyar Taghavi a driven software engineer with a solid foundation from Flatiron's coding bootcamp, now deep-diving into advanced development techniques through projects and specialized courses. Each day is dedicated to coding and seeking opportunities where I can contribute significantly, leveraging my technical proficiency and diverse life experiences.
-        </p>
-  
+        Hello, I'm Kamyar Taghavi, a dynamic software engineer with a solid foundation from Flatiron's coding bootcamp, continuously advancing my skills through specialized projects and courses. I am dedicated to leveraging my coding expertise and business management background to create meaningful impact. Passionate about developing applications that tackle real-world problems using innovative technologies, I also bring leadership and communication skills honed during my tenure as a property manager in real estate. Outside of professional pursuits, I enjoy exploring nature, cherishing time with family, and delving into strategy games.        </p>
         <p className="text-gray-600 text-lg my-4">
-          {/* I enjoy building applications that solve real-world problems and exploring new technologies. My experience as a chef in the hospitality industry has taught me valuable leadership skills and how to effectively communicate with team members. I also enjoy nature, spending time with family, and music. You can reach me via email, connect with me on LinkedIn, view my GitHub page, and checkout my resume using the links below. */}
+        Please feel free to contact me via email, schedule a chat via Calendly, connect on LinkedIn, explore my GitHub projects, read my insights on Medium, or follow my updates on Twitter/X. All relevant links to my professional profiles and Resume/CV are provided below:
         </p>
           <div className='flex justify-center pt-6 max-w-[200px] mx-auto gap-14'>
             <a href="mailto:taghavi.kamyar@live.com" target="_blank" rel="noopener noreferrer">
@@ -44,8 +42,8 @@ const AboutMe = () => {
                 <FaSquareXTwitter className='cursor-pointer hover:scale-110 ease-in duration-150' size={35}/>
             </a>
             </div>
-        <div className="mt-8">
-          <a href={Resume} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        <div className="mt-12">
+          <a href={Resume} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-4 rounded focus:outline-none focus:shadow-outline">
             View Resume/CV
           </a>
         </div>
