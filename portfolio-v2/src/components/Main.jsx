@@ -1,10 +1,5 @@
 import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
-import {FaLinkedinIn} from 'react-icons/fa'
-import { FaSquareXTwitter, FaMedium  } from "react-icons/fa6";
-import { MdOutlineEmail } from "react-icons/md";
-import { IoLogoGithub } from "react-icons/io";
-import { SiCalendly } from "react-icons/si";
 
 const Main = () => {
   return (
@@ -33,15 +28,7 @@ const Main = () => {
       style={{ fontSize: '1em', paddingLeft: '5px' }}
     />
             </h2>
-            <div className='flex justify-around pt-6 max-w-[200px] mx-auto'>
-                <MdOutlineEmail className='cursor-pointer' size={20}/>
-                <SiCalendly className='cursor-pointer' size={20}/>
-                <FaLinkedinIn className='cursor-pointer' size={20}/>
-                <IoLogoGithub className='cursor-pointer' size={20}/>
-                <FaMedium className='cursor-pointer' size={20}/>
-                <FaSquareXTwitter className='cursor-pointer' size={20}/>
-            </div>
-            </div>
+          </div>
         </div>
     </div>
   )
