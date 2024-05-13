@@ -23,7 +23,7 @@ const Education = () => {
           alt="Management Certificate"
           className="w-auto h-102 object-cover rounded-lg shadow-lg hover:scale-110 ease-in duration-200"
         />
-        <p className="text-center text-gray-700 mt-4">
+        <p className="text-center text-gray-700 mt-4 mb-4">
           Bachelor of Science in Management <br /> 
           California State University of Northridge, 2016
         </p>
