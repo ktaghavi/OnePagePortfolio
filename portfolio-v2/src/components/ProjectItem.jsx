@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectItem = ({img, title}) => {
+const ProjectItem = ({img, title, demoLink, githubLink}) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]'>
         <img src={img} alt={title} className='rounded-xl group-hover:opacity-10'/>
@@ -10,12 +10,12 @@ const ProjectItem = ({img, title}) => {
             </h3> 
         </div>
         <div className='absolute bottom-2 left-2 hidden group-hover:block'>
-            <a href="/">
+            <a href={demoLink} target="_blank" rel="noopener noreferrer">
                 <p className='text-center p-2 rounded-lg bg-white text-gray-700 font-bold curson-pointer text-lg'>Demo</p>
             </a>
         </div>
         <div className='absolute bottom-2 right-2 hidden group-hover:block'>
-            <a href="/">
+            <a href={githubLink} target="_blank" rel="noopener noreferrer">
                 <p className='text-center p-2 rounded-lg bg-white text-gray-700 font-bold curson-pointer text-lg'>GitHub</p>
             </a>
         </div>

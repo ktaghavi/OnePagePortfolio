@@ -17,8 +17,8 @@ function App() {
         <Main />
         <AboutMe />
         <TechStack />
-        <Work />
         <Projects />
+        <Work />
         <Education />
         <Contact />
       </div>

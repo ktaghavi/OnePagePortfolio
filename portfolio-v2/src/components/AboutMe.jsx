@@ -29,7 +29,7 @@ const AboutMe = () => {
             {/* <a href="https://calendly.com/kamyart" target="_blank" rel="noopener noreferrer">
                 <SiCalendly className='cursor-pointer hover:scale-110 ease-in duration-150' size={35}/>
             </a> */}
-            <a href="www.linkedin.com/in/kamyar-taghavi" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/kamyar-taghavi" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn className='cursor-pointer hover:scale-110 ease-in duration-150' size={35}/>
             </a>
             <a href="https://github.com/ktaghavi" target="_blank" rel="noopener noreferrer">

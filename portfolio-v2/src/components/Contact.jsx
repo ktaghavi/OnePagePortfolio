@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 mt-14'>
+    <div className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 mt-14 mb-14'>
       <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>Contact Me</h1>
       <form ref={formRef} onSubmit={handleSubmit}>
         <div className='grid md:grid-cols-2 gap-4 w-full py-2 mb-6'>
@@ -56,7 +56,7 @@ const Contact = () => {
           <label htmlFor="message" className='text-sm py-2'>Message</label>
           <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows="4" className="shadow appearance-none border rounded w-full py-2 px-3 bg-gray-200 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" required></textarea>
         </div>
-        <div className="flex items-center justify-between">
+        <div id='contact' className="flex items-center justify-between">
           <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
           Send
           </button>
